@@ -19,6 +19,52 @@
     clear: both;
 }
 
+.tbl-full{
+    width:100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td {
+    padding:3%;
+    text-align: left;
+}
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #3742fa;
+}
+.btn-update-admin{
+    background-color: #7bed9f;
+
+    padding:2%;
+
+    text-decoration: none;
+    color: black;
+}
+.btn-update-admin:hover {
+    background-color: #2ed573;
+}
+
+.btn-delete-admin{
+    background-color: #ff4757;
+    padding:2%;
+    text-decoration: none;
+    color: white;
+}
+.btn-delete-admin:hover {
+    background-color: #ff6b81;
+}
 /* CSS for menu*/
 .menu{
     border-bottom: 1px solid grey;
